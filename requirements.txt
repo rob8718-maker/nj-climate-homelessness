@@ -1,0 +1,29 @@
+# ── Core ──────────────────────────────────────────────────────
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+
+# ── Geospatial ────────────────────────────────────────────────
+geopandas>=0.14
+shapely>=2.0
+pyproj>=3.6
+rasterio>=1.3        # GeoTIFF / NetCDF raster data
+xarray>=2024.1       # NOAA .nc files
+netcdf4>=1.6
+
+# ── ML ────────────────────────────────────────────────────────
+scikit-learn>=1.4
+
+# ── Visualization ─────────────────────────────────────────────
+matplotlib>=3.8
+seaborn>=0.13
+folium>=0.16         # Interactive NJ county maps
+
+# ── Notebooks ─────────────────────────────────────────────────
+jupyter>=1.0
+nbstripout>=0.7      # Strip notebook outputs before git commit
+
+# ── Utilities ─────────────────────────────────────────────────
+python-dotenv>=1.0   # Load .env files
+tqdm>=4.66           # Progress bars for data loops
+requests>=2.31       # API calls
